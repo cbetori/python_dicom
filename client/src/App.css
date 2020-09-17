@@ -1,0 +1,31 @@
+#app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#patientContainer {
+	display: flex;
+	border: 0.5px solid rgba(25, 41, 68, 0.3);
+	box-shadow: 0.5px 0.5px rgba(25, 41, 68, 0.3);
+	margin: 10px;
+}
+
+.patientDetail {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
+.patientTitle {
+	font-size: large;
+	font-weight: bold;
+	margin: 7px;
+}
+
+.patientDetail {
+	font-size: large;
+	margin: 7px;
+}
